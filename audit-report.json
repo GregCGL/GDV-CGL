@@ -1,97 +1,26 @@
 {
+  "html_pages": [
+    "index.html",
+    "algemene-voorwaarden\\index.html",
+    "terms\\index.html",
+    "product\\vlinders\\index.html"
+  ],
+  "over_ons_exists": false,
+  "over_ons_refs": 0,
   "term_hits": [],
-  "external_domains": {
-    "fonts.googleapis.com": {
-      "count": 1,
-      "classification": "questionable (only keep if intentionally used)",
-      "sample_urls": [
-        "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lora:wght@400;500;600&display=swap"
-      ]
-    },
-    "luxa-events.booqableshop.com": {
-      "count": 4,
-      "classification": "required and intentional",
-      "sample_urls": [
-        "https://luxa-events.booqableshop.com/"
-      ]
-    },
-    "tailwindcss.com": {
-      "count": 1,
-      "classification": "questionable",
-      "sample_urls": [
-        "https://tailwindcss.com"
-      ]
-    },
-    "www.luxamoments.be": {
-      "count": 5,
-      "classification": "required and intentional (canonical/self references)",
-      "sample_urls": [
-        "https://www.luxamoments.be/",
-        "https://www.luxamoments.be/algemene-voorwaarden/",
-        "https://www.luxamoments.be/over-ons/",
-        "https://www.luxamoments.be/product/vlinders/",
-        "https://www.luxamoments.be/terms/"
-      ]
-    },
-    "www.w3.org": {
-      "count": 1,
-      "classification": "questionable",
-      "sample_urls": [
-        "http://www.w3.org/2000/svg"
-      ]
-    }
-  },
   "missing_assets": [],
   "broken_internal": [],
-  "functional": {
-    "index_exists": true,
-    "html_page_count": 5,
-    "css_files": [
-      "assets\\luxa-css-algemene-voorwaarden.P5QmdC7P.css"
-    ],
-    "js_files": [
-      "assets\\index.D4HLoNyb.js",
-      "assets\\luxa-client.DxGPC1i1.js",
-      "assets\\luxa-FAQ.B95d984k.js"
-    ],
-    "viewport_meta_all_html": true,
-    "media_query_count": 22,
-    "booqable_link_present": true,
-    "mailto_count": 1,
-    "tel_count": 2,
-    "mojibake_count": 0,
-    "utf8_icons": {
-      "sparkles": 1,
-      "truck": 1,
-      "phone": 1,
-      "sun": 1,
-      "umbrella": 1,
-      "check": 12
-    },
-    "missing_assets_count": 0,
-    "broken_internal_count": 0
-  },
-  "zip": {
-    "exists": true,
-    "valid": true,
-    "file_count": 24,
-    "size": 6192683
-  },
-  "risk_assessment": [
-    {
-      "level": "Medium risk",
-      "location": "assets/*",
-      "reason": "Images appear to be copied from the current public website/CDN. Technically local and working, but ownership/licensing should be confirmed by the site owner before production."
-    },
-    {
-      "level": "Low risk",
-      "location": "HTML/CSS/JS",
-      "reason": "No remaining legacy builder scripts, tracking snippets, iframes, or external hosted CSS/JS references were found in project text files."
-    },
-    {
-      "level": "Medium risk",
-      "location": "External domains",
-      "reason": "There are external domains beyond the intentional Booqable/self references. Review before production."
-    }
-  ]
+  "external_domains": [
+    "fonts.googleapis.com",
+    "luxa-events.booqableshop.com",
+    "tailwindcss.com",
+    "www.luxamoments.be",
+    "www.w3.org"
+  ],
+  "booqable_link_present": true,
+  "mojibake_count": 0,
+  "viewport_all": true,
+  "media_queries": 22,
+  "zip_valid": true,
+  "zip_file_count": 22
 }

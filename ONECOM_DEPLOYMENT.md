@@ -10,7 +10,6 @@ Upload de **inhoud** van deze map naar de webroot van One.com:
 - `README.md` en `ONECOM_DEPLOYMENT.md` hoeven niet publiek, maar mogen technisch gezien geen kwaad
 - mappen:
   - `assets/`
-  - `over-ons/`
   - `product/`
   - `algemene-voorwaarden/`
   - `terms/`
@@ -40,7 +39,6 @@ Plaats de bestanden in de map waar de huidige publieke `index.html` verwacht wor
 1. Open `https://www.luxamoments.be/`.
 2. Test desktop en mobiel.
 3. Test navigatie naar:
-   - `/over-ons/`
    - `/product/vlinders/`
    - `/algemene-voorwaarden/`
    - `/terms/`

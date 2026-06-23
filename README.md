@@ -9,7 +9,6 @@ Deze repository bevat een zelfstandige statische versie van `www.luxamoments.be`
 ## Pagina's
 
 - `/`
-- `/over-ons`
 - `/product/vlinders`
 - `/algemene-voorwaarden`
 - `/terms`
