@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# Dependency/build folders if tooling is added later
+node_modules/
+dist/
+build/
+.out/
+.vercel/
+.netlify/
+
+# Archives/backups
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.backup
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
